@@ -1,0 +1,51 @@
+* ,* :after, ::before{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif, ;
+    color: white;
+    overflow: hidden;
+    background-color: black;
+}
+.bg-img{
+    position: fixed;
+    background: url(prado\ nature.jpeg) no-repeat fixed center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: covr;
+}
+.bg-img::before{
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   background:rgba(0,0,0,0.3);
+
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+ol{
+    list-style-type: none;
+    display: relative;
+}
+.container{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+
+}
+.mars{
+    position: absolute;
+    
+}

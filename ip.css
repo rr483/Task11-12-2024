@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+  
+    
+   
+    
+    
+background-image: url(https://duyn491kcolsw.cloudfront.net/files/12/125/125hub.jpg?ph=41c1c66d66);
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right:25px;
+    height: 600px;
+    width: auto;
+    
+}
+nav .box p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: #e6bc91;
+    
+    letter-spacing: 1.5px;
+}
+nav ul{
+    float: right;
+    padding-right: 100px;
+
+}
+nav li{
+    display: inline-flex;
+    list-style: none;
+   flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px;
+    padding-top: 20px;
+    
+
+
+}
+nav li a{
+    font-size: 22px;
+line-height: 28px;
+   letter-spacing: 0px;
+    color: #e6bc91;
+    text-decoration: none;
+}
+nav .box p{
+    padding-left: 16px;
+    padding-top: 16px;
+}
+nav .paragraph {
+   margin-left: 4rem;
+   margin-top: 4rem;
+   color: #e6bc91;
+   font-size: 32px;
+   font-weight: normal ;
+  
+    
+}
+nav .content{
+    margin-left: 4rem;
+    margin-top: 1rem;
+    color: #e6bc91;
+    font-size: 76px;
+}
+nav .button{
+    margin-left: 4rem;
+    margin-top: 5rem;
+    
+   
+}
+nav .button{
+    box-sizing: content-box;
+    border: 2.5px solid #e6bc91 ;
+    width:300px ;
+    padding-left: 1px;
+    height: 50px;
+    padding-top: 2px;
+    background: none;
+    color: white;
+    font-size: 18px;
+}
+nav .button:hover{
+    border-color: white;
+    color: #e6bc91;
+    
+    
+
+   
+}
+main{
+    border: 6px solid white;
+    border-style: inset;
+    width:auto ;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    background-origin: padding-box;
+}
+main h3{
+    color: #e6bc91;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+main h4{
+    padding-left: 5rem;
+    padding-top: 1rem;
+    font-size: 38px;
+    color: rgb(1, 5, 37);
+}
+main p{
+    padding-left: 40rem;
+    padding-top: 0rem;
+    color: rgb(53, 53, 53);
+
+}
+header{
+    width: 1180px;
+    height: 600px;
+    border: 6px solid white;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+   padding-bottom: 2rem;
+   margin-top: 2rem;
+
+background-position: center;
+background-position: 2rem 2rem 2rem 2rem;
+background-repeat: no-repeat;
+background-size: contain;
+border-style: inset;
+
+
+}
+header .side{
+   
+    height: 450px;
+    width: 650px;
+   
+    background-image: url(https://duyn491kcolsw.cloudfront.net/files/3w/3wi/3wiz19.png?ph=41c1c66d66);
+    margin-left:20rem;
+    margin-top: 8rem;
+    
+    background-size: cover,  100%;
+    
+}
+main h2{
+    color: #e6bc91;
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+main .sad{
+    color: rgb(1, 5, 37) ;
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+main .sad p{
+    padding-right: 5rem;
+}
+main{
+    margin-top: 2rem;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+.image-container{
+    position: relative;
+    text-align: center;
+    
+}
+.image-name{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 5px;
+    
+}
+.main{
+    
+  
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    padding-top: 1.5rem;
+}
+.main button{
+    position: absolute;
+    margin-top: 25rem;
+    color: black;
+    border-color: #e6bc91;
+    width: 300px;
+    height: 40px;
+
+}
+.main .button:hover{
+    color: black;
+    border-color: black;
+}
+hr{
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+footer{
+    margin-top: 2rem;
+    
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+  

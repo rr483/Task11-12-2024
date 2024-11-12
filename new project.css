@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+.wrapper{
+    margin: 0px auto;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    background-image: url(pizza.avif);
+    background-size:100% ;
+    background-repeat: no-repeat;
+background-size: cover;
+}
+.nav{
+    width: 100%;
+    float: left;
+    background-color:rgb(0, 0,0,5) ;
+
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    display:block ;
+    float: left;
+
+}
+li{
+    float: left;
+    border-right:1px solid #bbb ;
+
+}
+li :last-child{
+    border-right: none;
+
+}
+
+a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 24px 56px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all .5 s;
+
+    
+}
+.search i.fa-light{
+    color:#fff ;
+
+}
+a:hover{
+    background-color:  #a5aa05;
+    color:#333 ;
+
+
+}
+.search{
+    float: right;
+}
+.search input{
+    width: 300px;
+    height: 30px;
+    margin: 20px 20px 0px 0px ;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background-color: rgba(187, 13, 13, 0.2);
+    opacity:.5 ;
+    padding-left: 20px;
+
+
+
+}
+article{
+    width: 13.5%;
+    margin-left: 10%;
+    background-color: yellow;
+    color: #000;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+    margin-top: 300px;
+height: min-content 750px;
+font-size: 18px;
+border-radius: 40px 40px 40px 40px;
+transition: all .5s;
+
+}
+content{
+    width: 100%;
+    float: left;
+}
+article p, article h1{
+    margin-top: 20px;
+
+}
+article:hover{
+    background-color: #fff;
+    color: #000;
+    margin-top: 200px;
+
+}

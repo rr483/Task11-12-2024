@@ -1,0 +1,34 @@
+.box{
+    border: solid;
+    padding: 10px;
+    margin: 2px;
+    border-color: aqua;
+
+background-image: linear-gradient(blue,
+red,yellow);
+background-image:radial-gradient(blue,red) ;
+border-image-source:url(trye.jpeg);
+
+}
+h2 span{
+    background-color: rgb(160, 73, 73);
+    background-: ;
+}
+img{
+ 
+   float: right;
+   padding-top: 15%;
+   padding-right: 10%;
+   
+}
+h1{
+    font-family: ;
+   text-align:  center;
+   background-color: rgb(146, 82, 82);
+   font-size: 54;
+  
+}
+h3{
+    text-decoration:none ;
+}
+ 
